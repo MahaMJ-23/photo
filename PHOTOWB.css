@@ -1,0 +1,73 @@
+*{
+    
+}
+body{
+    background-image:url(.vscode/image.jfif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    
+    margin:none;
+    
+}
+.link{
+    display:flex;
+    padding-right:30px;
+    padding: 0px 20px;
+    
+
+}
+.link li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color:black;
+ 
+    
+}
+.link li{
+    list-style:none;
+    padding-top: 20px;
+}
+.link li a:hover{
+    color:lightgrey;
+}
+.h1{
+   
+    text-align: center;
+    margin:150px 50px 50px 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-size:x-large;
+    
+    font-weight: bolder;
+}
+span{
+    color:blue;
+}
+.log{
+    padding-left:10px;
+}
+button{
+    margin-top: 30px;
+    padding:10px 30px 10px 30px;
+    font-size:larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: azure;
+    border-left: 5px;
+        
+}
+button:hover{
+    background-color:skyblue;
+}
+.gap{
+    margin-left:20px;
+}
